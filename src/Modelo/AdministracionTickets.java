@@ -14,6 +14,12 @@ public class AdministracionTickets {
         this.numero = numero;
         this.tipo = tipo;  
     }
+
+    public AdministracionTickets(String numero, String tipo) {
+        this.numero = numero;
+        this.tipo = tipo;
+    }
+    
     public String getTickets() {
         return tickets;
     }
@@ -37,7 +43,4 @@ public class AdministracionTickets {
     public void setTipo(String tipo) {
         this.tipo = tipo;
     }
-    
-    
-    
 }
