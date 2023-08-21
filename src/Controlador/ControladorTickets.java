@@ -25,15 +25,6 @@ public class ControladorTickets {
             System.out.println("No hay tickets pendientes para atender.");
         }
     }
-
-    public static void main(String[] args) {
-        ControladorTickets controlador = new ControladorTickets();
-
-        controlador.Generarticket();
-        controlador.Generarticket();
-
-        controlador.Atender();
-        controlador.Atender();
-        controlador.Atender();
-    }
 }
+
+    
